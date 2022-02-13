@@ -17,8 +17,6 @@ export default function AnimationNumber({ value }: { value: number }) {
     let localTimer = setInterval(() => {
       const nextValue = currentData.value + differenceValuePer;
 
-      console.info(nextValue, value);
-
       if (nextValue >= value) {
         currentData.value = value;
         update({});
