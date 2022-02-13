@@ -15,13 +15,13 @@ export default function ShushuDemo() {
     <div>
       数字：
       <AnimationNumber value={testValue.value}></AnimationNumber>
-      <button
+      {/* <button
         onClick={() => {
           addValue();
         }}
       >
         随机增加值
-      </button>
+      </button> */}
     </div>
   );
 

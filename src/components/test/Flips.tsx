@@ -246,7 +246,6 @@ const Flips: React.FC<FlipsProps> = (props) => {
           if (!prevRectsRef.current[flipId]) {
             prevRectsRef.current[flipId] = nextRects[flipId];
           }
-          // (flipEle as HTMLElement).style.transition = ''
         }
       }
       // 计算之前样式与现在的样式的差，并设置样式
